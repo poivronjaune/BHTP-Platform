@@ -5,19 +5,25 @@ requires = [
 ]
 build-backend = "setuptools.build_meta"
 
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["bhtp"]
+namespaces = false
+
 [project]
-name = "BTHP"
-version = "0.1.0"
+name = "BHTP-CLI"
+version = "0.1.2"
 authors = [
     {name = "PoivronJaune", email = "poivronjaune@gmail.com"},
 ]
-description = "Hobby trader is a python package for algorithmic trading ans backtesting"
+description = "Brothers Hobby Trader Platform is a python package for algorithmic trading and backtesting"
 requires-python = ">=3.10"
 dependencies = [
     "yfinance",
     "pandas",
+    "click",
+    "jsonschema",
 ]
 
-
 [project.scripts]
-bthp = "bthp:main"
+bhtp = "bhtp.__init__:cli"
