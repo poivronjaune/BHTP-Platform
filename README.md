@@ -1,6 +1,6 @@
 # BHTP - Brothers Hobby Trading Platform
 Command line interface (CLI) for Brothers Hobby Trading Platform.  
-
+> Project is on hold as of July 2025
 ## Introduction  
 Main Python project to build a fully functional command line interface (CLI) tool for Algorithmic Trading using BHTP packages as they get published.
 
