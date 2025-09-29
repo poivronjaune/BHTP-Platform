@@ -49,6 +49,3 @@ bhtp --help  : use the -- option to activate a switch
 
 #### Command
 bhtp config  : use the command name to execute actions
-
-## Detailed documentation  
-Read the Docs site commig in 2025...
